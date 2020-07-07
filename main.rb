@@ -7,8 +7,8 @@ rescue
   puts "Use a whole number please(an integer)"
   retry
 end
-puts "Pascal's triangle with #{input_number} is: "
+puts "Pascal's triangle with #{input_number} rows is: "
 pt = PascalsTriangle.new
 (input_number + 1).times { |rows|
-  p pt.triangle(rows)
+  p pt.to_s(rows)
 }
