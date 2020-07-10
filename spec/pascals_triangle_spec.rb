@@ -2,7 +2,7 @@ require 'pascals_triangle'
 
 describe PascalsTriangle do
 
-  describe '.triangle' do
+  describe '.to_s' do
     it "returns first row if given number is 0" do
       expect(PascalsTriangle.new.to_s(0)).to eql("1")
     end
